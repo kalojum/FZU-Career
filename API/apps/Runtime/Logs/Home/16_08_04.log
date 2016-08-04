@@ -2153,3 +2153,119 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
 
+[ 2016-08-04T14:31:26+08:00 ] 127.0.0.1 /coding/FZU-Career/API/index.php/home/admins
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+ERR: 非法操作:create
+
+[ 2016-08-04T14:32:11+08:00 ] 127.0.0.1 /coding/FZU-Career/API/index.php/home/admins
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+ERR: 非法操作:create
+
+[ 2016-08-04T14:32:27+08:00 ] 127.0.0.1 /coding/FZU-Career/API/index.php/home/admins
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+NOTIC: [8] Undefined index: HTTP_ACCEPT /Applications/MAMP/htdocs/coding/FZU-Career/API/ThinkPHP/Library/Think/Controller/RestController.class.php 第 118 行.
+ERR: 非法操作:create
+
+[ 2016-08-04T14:33:17+08:00 ] 127.0.0.1 /coding/FZU-Career/API/index.php/home/admins.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
