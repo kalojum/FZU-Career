@@ -3,12 +3,12 @@ return array(
 	//'配置项'=>'配置值'
     'DB_PARAMS'             =>   array(\PDO::ATTR_CASE => \PDO::CASE_NATURAL),//数据库返回字段为原字段
 	'DB_TYPE'               =>  'mysql',     // 数据库类型
-    'DB_HOST'               =>  '123.207.58.12', // 服务器地址
-    'DB_NAME'               =>  'jyzd',      // 数据库名
+    'DB_HOST'               =>  '120.27.114.158', // 服务器地址
+    'DB_NAME'               =>  'FZU-Career',      // 数据库名
     'DB_USER'               =>  'root',      // 用户名
     'DB_PWD'                =>  'root',      // 密码
     'DB_PORT'               =>  '3306',      // 端口
-    'DB_PREFIX'             =>  'vs_',       // 数据库表前缀
+    'DB_PREFIX'             =>  'fzu_',       // 数据库表前缀
     'DB_CHARSET'            =>  'utf8',      // 数据库编码默认采用utf8
     'DEFAULT_CONTROLLER'    =>  '', // 默认控制器名称
     'DEFAULT_ACTION'        =>  '', // 默认操作名称
@@ -34,6 +34,7 @@ return array(
     /*'news/:year/:month/:day' => array('News/archive', 'status=1'),
     'news/:id'               => 'News/read',
     'news/read/:id'          => '/news/:1',*/
+    "LOAD_EXT_FILE"=>"functions",  //调用公共函数
     ),
 
 );
