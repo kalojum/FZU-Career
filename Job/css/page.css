@@ -1,0 +1,310 @@
+#header {
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+
+.topbar {
+	position: absolute;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 30px;
+	height: 72px;
+	background-color: rgba(0, 0, 0, .5);
+	overflow: hidden;
+	z-index: 999;
+}
+
+#logo {
+	height: 72px;
+	display: inline-block;
+}
+
+#logo img{
+	height: 62px;
+	padding-top: 5px;
+}
+
+#user {
+	position: absolute;
+	right: 20px;
+	display: inline-block;
+}
+
+.user-login, 
+.user-signup {
+	display: inline-block;
+	color: #fff;
+	border-bottom: 1px solid transparent;
+	padding: 10px 5px;
+	margin: 15px;
+	transition: all .2s ease;	
+	-moz-transition: all .2s ease; /* Firefox 4 */
+	-webkit-transition: all .2s ease; /* Safari ºÍ Chrome */
+	-o-transition: all .2s ease; /* Opera */
+	cursor: pointer;
+}
+
+.user-login:hover, 
+.user-signup:hover {
+	border-bottom: 1px solid #fff;
+} 
+
+.separator {
+	display: inline-block;
+	width: 1px;
+	height: 20px;
+	vertical-align: middle;
+	background-color: #fff;
+	transform: rotate(15deg);
+}
+
+.slider img {
+	width: 100%;
+}
+
+#main {
+	background-color: #fff;
+	background: url('../images/brick-pattern.jpg');
+
+}
+
+.show-wrapper {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.show-box {
+	width: 800px;
+	height: 450px;
+	margin-left:auto;
+	margin-right: auto;
+	transform: translate(0, -30px);
+	background-color: #fff;
+	box-shadow: 0 0 1px 1px #eee;
+}
+
+.show-box-left,
+.show-box-right {
+	position: absolute;
+	top: 100px;
+}
+
+.show-box-left{
+	left: 0;
+}
+
+.show-box-right {
+	right: 0;
+}
+
+.show-box-left:hover .left-bg,
+.show-box-right:hover .right-bg{
+	border-right-color: #C43436;
+}
+
+
+.left-bg{
+	width: 0; 
+	height: 100px; 
+	border-right: 100px solid #CC6062; 
+	border-top: 50px solid transparent; 
+	border-bottom: 50px solid transparent; 
+	/*box-shadow: 0 0 1px 2px #000;*/
+
+}
+
+.right-bg {
+	width: 0;
+	height: 100px;
+	border-left: 100px solid #C43436;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+}
+
+.text {
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.left-text,
+.right-text {
+	position: absolute;
+	display: inline-block;
+	top: 0;
+	padding: 70px 20px;
+	letter-spacing: 3px;
+	color: #fff;
+	margin-left: 10px;
+}
+
+.show-box-menu {
+	border-bottom: 1px solid #c43436;
+}
+
+.show-box-menu li{
+	position: relative;
+	padding: 18px 0;
+	width: 25%;
+	font-size: 1.2em;
+	cursor: pointer;
+	transition: all .2s ease;	
+	-moz-transition: all .2s ease; /* Firefox 4 */
+	-webkit-transition: all .2s ease; /* Safari ºÍ Chrome */
+	-o-transition: all .2s ease; /* Opera */
+
+}
+
+
+.show-box-menu li:hover{
+	display: block;
+	transform: translate(0, -5px);
+}
+
+#li-selector {
+	position: relative;
+	left: 90px;
+	top: 50px;
+	width: 0;
+	border-bottom: 8px solid #C43436;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+
+}
+
+.show-box-content {
+	padding: 2em 3em;
+}
+
+.show-box-content ul {
+	max-height: 21em;
+	overflow: hidden;
+}
+.show-box-content li a{
+	display: inline-block;
+	width: 85%;
+	max-width: 85%;
+	font-size: 1.1em;
+	height: 2em;
+	line-height: 2em;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #555;
+	overflow: hidden;
+}
+
+.time {
+	line-height: 2em;
+	font-size: .8em;
+	color: #999;
+	vertical-align: middle;
+}
+
+.more {
+	padding: 10px;
+	color: #C43436;
+	font-size: 13px;
+}
+
+.career-wrapper {
+	width: 100%;
+	/*height: 180px;*/
+
+	background-color: #40506B;
+	/*background: url('../images/laracon-bg.jpg');*/
+}
+
+.career-box {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.career-panel {
+	display: inline-block;
+	width: 19.5%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.career-panel .icon-career {
+	width: 55px;
+}
+
+.career-name {
+	color: #ecf0f1;
+	padding: 10px;
+	cursor: default;
+}
+
+.cooperator-wrapper {
+	width: 100%;
+	background-color: #fff;
+	/*background: url('../images/a1c25510e88600000054a8d276f7.jpg');*/
+}
+
+.cooperator-box {
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.friendlink-wrapper {
+	width: 100%;
+	background: url('../images/laracon-bg.jpg');
+	/*background-color: #40506B;*/
+}
+
+.friendlink {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 30px 0;
+	color: #fff;
+}
+
+.friendlink-title {
+	margin: 15px 0;
+	font-weight: normal;
+	cursor: default;
+}
+
+.icon-friend {
+	width: 25px;
+	margin-bottom: -5px;
+	margin-left: 3px;
+}
+
+.icon-sfriend {
+	width: 13px;
+	margin-left: 5px;
+	/*amrgin-bottom: -5px;*/
+}
+.friendlink-subtitle {
+	margin-bottom: 10px;
+	font-weight: normal;
+	cursor: default;
+}
+
+.friendlink-box {
+	width: 22.5%;
+	display: inline-block;
+	padding: 10px;
+	vertical-align: top;
+}
+
+.friendlink-box a {
+	display: block;
+	line-height: 1.8em;
+	color: inherit;
+}
+
+#footer {
+	width: 100%;
+	background-color: #ebebed;
+}
+
+.copyright {
+	padding: 30px;
+	color: #4e4e61;
+}
