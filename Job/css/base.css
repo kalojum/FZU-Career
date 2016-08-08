@@ -74,3 +74,10 @@ textarea {
 	text-align: center;
 }
 
+.disblock {
+	display: block;
+}
+
+.disnone {
+	display: none;
+}
