@@ -1,6 +1,6 @@
 # venture_center
 
-> A Vue.js project
+> Venture center by vue
 
 ## Build Setup
 

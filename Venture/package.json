@@ -1,7 +1,7 @@
 {
   "name": "venture_center",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "Venture center by vue",
   "author": "kalojum <machobaby9@hotmail.com>",
   "private": true,
   "scripts": {

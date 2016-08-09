@@ -12,6 +12,8 @@
  *   hardware-accelerated goodness.
  */
 .unslider-nav ol {
+  position: relative;
+  bottom: 65px;
   list-style: none;
   text-align: center;
 }

@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="../css/page.css">
 	<link rel="stylesheet" href="../css/owl.carousel.css">
 	<link rel="stylesheet" href="../css/unslider.css">
-	<!-- <link rel="stylesheet" href="../css/unslider-dots.css"> -->
+	<link rel="stylesheet" href="../css/unslider-dots.css">
 	<title>首页-福州大学学生就业指导中心</title>
 </head>
 <body>
@@ -16,9 +16,14 @@
 		<div class="topbar">
 			<div id="logo"><a href="index.html"><img src="../images/logo.png" alt=""></a></div>
 			<div id="user">
-					<a class="user-login">登录</a>
-					<span class="separator"></span>
-					<a class="user-signup" href="javscript:;">注册</a>
+					<div class="user-box user-login-box disnone">
+						<a class="user-login">登录</a>
+						<span class="separator"></span>
+						<a class="user-signup" href="javscript:;">注册</a>
+					</div>
+					<div class="user-box user-channel-box">
+						<a class="user-type" href=""><img class="icon-type" src="../images/学生(1).png" alt="">学生<span> XXX</span></a>
+					</div>
 			</div>
 		</div>
 		<div class="slider">
@@ -35,11 +40,11 @@
 	<!-- Main Start -->
 	<div id="main">
 		<div class="show-wrapper">
-			<div class="show-box-left">
-				<div class="left-bg"></div>
-				<span class="text left-text">招聘<br>信息</span>
+			<div id="show-box-left" class="show-box-toggle show-box-left">
+				<div  class="show-toggle-bg left-bg show-news-toggle"></div>
+				<span class="text left-text">招聘<br>实习</span>
 			</div>
-			<div class="show-box">
+			<div class="show-box show-news">
 				<div class="show-box-menu clearfix">
 					<ul id="show-box-menu">
 						<li class="fl aligncenter active">新闻热点</li>
@@ -47,7 +52,34 @@
 						<li class="fl aligncenter">院系动态</li>
 						<li class="fl aligncenter">政策法规</li>
 					</ul>
-					<div id="li-selector"></div>
+				</div>
+				<div class="show-box-content">
+					<ul>
+						<li><a href="information_detail.html">就是新闻热点啊不然是什么多加一点字字字字字字字字字字字字字字字字字字字字字字字字字字字</a><span class="time fr">2016-08-06</span></li>
+						<li><a href="information_detail.html">就是新闻热点啊不然是什么</a><span class="time fr">2016-08-06</span></li>
+						<li><a href="information_detail.html">就是新闻热点啊不然是什么</a><span class="time fr">2016-08-06</span></li>
+						<li><a href="information_detail.html">就是新闻热点啊不然是什么</a><span class="time fr">2016-08-06</span></li>
+						<li><a href="information_detail.html">就是新闻热点啊不然是什么</a><span class="time fr">2016-08-06</span></li>
+						<li><a href="information_detail.html">就是新闻热点啊不然是什么</a><span class="time fr">2016-08-06</span></li>
+						<li><a href="information_detail.html">就是新闻热点啊不然是什么</a><span class="time fr">2016-08-06</span></li>
+						<li><a href="information_detail.html">就是新闻热点啊不然是什么</a><span class="time fr">2016-08-06</span></li>
+						<li><a href="information_detail.html">就是新闻热点啊不然是什么</a><span class="time fr">2016-08-06</span></li>
+						<li><a href="information_detail.html">就是新闻热点啊不然是什么</a><span class="time fr">2016-08-06</span></li>
+						<li><a href="information_detail.html">就是新闻热点啊不然是什么</a><span class="time fr">2016-08-06</span></li>
+						<li><a href="information_detail.html">就是新闻热点啊不然是什么</a><span class="time fr">2016-08-06</span></li>
+						<li><a href="information_detail.html">就是新闻热点啊不然是什么</a><span class="time fr">2016-08-06</span></li>
+					</ul>
+					<a class="more fr" href="information_list.html">查看更多</a>
+				</div>
+			</div>
+			<div class="show-box show-employment disnone">
+				<div class="show-box-menu clearfix">
+					<ul id="show-box-menu">
+						<li class="fl aligncenter active">招聘信息</li>
+						<li class="fl aligncenter">实习信息</li>
+						<li class="fl aligncenter">宣讲信息</li>
+						<li class="fl aligncenter">考公考研</li>
+					</ul>
 				</div>
 				<div class="show-box-content">
 					<ul>
@@ -68,8 +100,8 @@
 					<a class="more fr" href="information_list.html">查看更多</a>
 				</div>
 			</div>
-			<div class="show-box-right">
-				<div class="right-bg"></div>
+			<div id="show-box-right" class="show-box-toggle show-box-right">
+				<div class="show-toggle-bg right-bg show-employment-toggle active-bg"></div>
 				<span class="text right-text">新闻<br>资讯</span>
 			</div>
 		</div>
@@ -150,7 +182,18 @@
 				</div>
 
 			</div>
-			
+		</div>
+
+		<div class="backtop">
+			<div class="backtop-box calender-box">
+				<a class="calender" href="javascript:;"></a>
+			</div>
+			<div class="backtop-box weixin-box">
+				<a class="weixin" href="javascript:;"></a>
+			</div>
+			<div class="backtop-box totop-box">
+				<a class="totop" href="#"></a>
+			</div> 
 		</div>
 	</div>
 	<!-- Main End -->
@@ -163,6 +206,8 @@
 	<script src="../js/jquery.js"></script>
 	<script src="../js/owl.carousel.js"></script>
 	<script src="../js/unslider-min.js"></script>
+	<script src="../js/jquery.event.move.js"></script>
+	<script src="../js/jquery.event.swipe.js"></script>
 	<script src="../js/index.js"></script>
 </body>
 </html>

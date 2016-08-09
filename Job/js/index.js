@@ -1,21 +1,3 @@
-function selector() {
-	var pre = 0;
-	$('#show-box-menu li').click(function() {
-		var offsetMenu = $("#show-box-menu").offset().left;
-		var offsetLi = $(this).offset().left;
-		var offsetSelector = $('#li-selector').offset().left;
-		var total = offsetLi - ( offsetSelector - offsetMenu);
-		console.log('pre ' + pre);
-		var total = offsetSelector + offsetLi - 2 * offsetMenu;
-		console.log('total '+total);
-		console.log(total-pre)
-		$('#li-selector').animate({left: total - pre});
-		pre = total;
-	})
-};
-
-selector();
-
 (function() {
 	var owl = $('.owl-carousel');
 	owl.owlCarousel({ //图片轮播
@@ -44,5 +26,35 @@ selector();
 })();
 
 jQuery(document).ready(function($) {
-	$('.slider').unslider();
+	$('.slider').unslider({
+		speed: 1000,
+		delay: 3000,
+		autoplay: true
+	});
+	var slides = $('.slider'),
+	    i = 0;
+	slides
+	.on('swipeleft', function(e) {
+	  slides.eq(i + 1).addClass('active');
+	})
+	.on('swiperight', function(e) {
+	  slides.eq(i - 1).addClass('active');
+	});
 });
+
+function showBox () {
+	$('#show-box-left').click(function () {
+			$('.show-news').hide();
+			$('.show-employment').show();
+			$('.left-bg').css('border-right-color','#C43436');
+			$('.right-bg').css('border-left-color','#D98F90')
+		});
+	$('#show-box-right').click(function () {
+			$('.show-employment').hide();
+			$('.show-news').show();
+			$('.right-bg').css('border-left-color','#C43436');
+			$('.left-bg').css('border-right-color','#D98F90')
+		});
+}
+
+showBox();
