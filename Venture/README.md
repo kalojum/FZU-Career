@@ -1,6 +1,6 @@
-# venture_center
+# venture_web
 
-> Venture center by vue
+> FZU-Venture-Center
 
 ## Build Setup
 
