@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import Main from './components/Main'
+import Main from './views/Main'
 
 /* eslint-disable no-new */
 new Vue({
