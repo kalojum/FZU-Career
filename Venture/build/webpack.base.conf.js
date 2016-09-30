@@ -2,17 +2,25 @@ var path = require('path')
 var config = require('../config')
 var utils = require('./utils')
 var projectRoot = path.resolve(__dirname, '../')
-
+var ExtractTextPlugin = require('extract-text-webpack-plugin')
 module.exports = {
   entry: {
-    index: './src/index.js'
+    fetch: ['whatwg-fetch'],
+    index: './src/index.js',
+    news: './src/news.js',
+    bases: './src/bases.js',
+    projects: './src/projects.js',
+    games: './src/games.js',
+    classes: './src/classes.js',
+    signup: './src/signup.js'
   },
   output: {
-    path: config.build.assetsRoot,
-    publicPath: process.env.NODE_ENV === 'production' ? config.build.assetsPublicPath : config.dev.assetsPublicPath,
-    filename: '[name].js'
+    path: config.build.assetsRoot, // 输出的文件路径
+    publicPath: process.env.NODE_ENV === 'production' ? config.build.assetsPublicPath : config.dev.assetsPublicPath, //资源的访问路径
+    filename: '[name].js', //输出文件名
+    chunkFilename: '[id].chunk.js'
   },
-  resolve: {
+  resolve: { //为模块设置别名
     extensions: ['', '.js', '.vue'],
     fallback: [path.join(__dirname, '../node_modules')],
     alias: {

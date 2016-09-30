@@ -7,6 +7,7 @@ exports.assetsPath = function (_path) {
 }
 
 exports.cssLoaders = function (options) {
+
   options = options || {}
   // generate loader string to be used with extract text plugin
   function generateLoaders (loaders) {
@@ -21,7 +22,6 @@ exports.cssLoaders = function (options) {
       }
       return loader + (options.sourceMap ? extraParamChar + 'sourceMap' : '')
     }).join('!')
-
     if (options.extract) {
       return ExtractTextPlugin.extract('vue-style-loader', sourceLoader)
     } else {

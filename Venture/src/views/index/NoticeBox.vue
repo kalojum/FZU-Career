@@ -1,48 +1,10 @@
 <template>
   <div id="notice-box">
     <ul class="notice-list">
-      <li v-for="notice in noticelist"><a class="notice-title" href="#">{{notice.title}}</a><span class="time">{{notice.time}}</span></li>
+      <li v-for="notice in noticelist"><a class="notice-title" href="news.html#!/article">{{notice.title}}</a><span class="time">{{notice.time}}</span></li>
     </ul>
   </div>
 </template>
-
-<style scoped>
-  .notice-list {
-    width: 100%;
-    margin-top: 35px;
-    overflow: auto;
-  }
-  .notice-list li{
-    padding: 5px 5px 5px 25px;
-    line-height: 20px;
-    border-left: 1px solid #efefef;
-  }
-  .time {
-    display: block;
-    text-align: right;
-    font-size: .9em;
-    color: #aaa;
-    padding: 2px 15px;
-    cursor: default;
-  }
-  .notice-title {
-    position: relative;
-    color: #222;
-    transition: all .2s;
-  }
-  .notice-title:before {
-    border-left: 8px solid #69BCCB;
-    border-bottom: 5px solid transparent;
-    border-top: 5px solid transparent;
-    content:'';
-    position: absolute;
-    top: 5px;
-    left: -26px;
-  }
-  .notice-title:hover {
-    color: #eb4f38;
-  }
-</style>
 
 <script>
   export default {

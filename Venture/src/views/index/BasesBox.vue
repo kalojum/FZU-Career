@@ -14,7 +14,7 @@
 </template>
 
 <script>
-  import pic from '../../assets/baseoic.jpg'
+  import pic from '../../assets/images/baseoic.jpg'
   export default {
     data () {
       return {
@@ -36,29 +36,3 @@
     }
   }
 </script>
-
-<style scoped>
-  .base-detail {
-    box-sizing: border-box;
-  }
-  .base-img {
-    width: 100%;
-    overflow: hidden;
-  }
-  .base-img img {
-    width: 100%;
-  }
-  .base-title {
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-  .base-name {
-    color: #fff;
-    font-weight: normal;
-  }
-  @media (min-width: 992px) {
-    .base-detail {
-      padding: 1%;
-    }
-  }
-</style>

@@ -1,0 +1,180 @@
+.projects-wrapper {
+  padding: 30px;
+}
+
+/*select-box*/
+.select-box {
+  margin-bottom: 30px;
+  line-height: 2.5em;
+  background-color: #FAFAFA;
+}
+
+.select-line {
+  padding: 10px 0;
+  margin: 0 30px;
+  border-bottom: 1px dashed #cecece;
+}
+
+.select-list {
+  width: 75%;
+}
+
+.select-list li {
+  padding: 0 10px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.search-box {
+  margin-right: 30px;
+  height: auto;
+}
+
+.search-box input {
+  box-sizing: border-box;
+  height: 35px;
+  width: 220px;
+  text-indent: 1em;
+  font-size: 15px;
+  border: 1px solid #cecece;
+}
+
+@media (min-width: 768px) {
+  .select-list {
+    width: 85%;
+  }
+}
+
+@media (min-width: 992px) {
+  .select-list {
+    width: 90%;
+  }
+  .search-box input {
+    width: 280px;
+  } 
+
+}
+
+@media (min-width: 1250px) {
+  .select-list {
+    width: 92%;
+  }
+}
+.projects-search-btn {
+  display: inline-block;
+  margin-left: -5px;
+  width: 50px;
+  height: 35px;
+  vertical-align: top;
+  background-color: #61A3E1;
+  cursor: pointer
+}
+
+.icon-search {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.noborder {
+  border: 0;
+}
+
+/*project-list*/
+.project {
+  border: 1px solid #cecece;
+  padding: 5px;
+  margin: 10px;
+}
+
+.project-pic {
+  width: 26%;
+  height: 160px;
+  line-height: 160px;
+  margin: 1%;
+  overflow: hidden;
+}
+
+.project-pic img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.project-detail {
+  box-sizing: border-box;
+  padding: .5em;
+  width: 71%;
+}
+
+.project-title {
+  margin-top: .5em;
+  line-height: 2em;
+  font-size: 22px;
+  font-weight: normal;
+}
+.project-title a {
+  color: #042545;
+}
+.project-title a:hover {
+  color: #eb4f38;
+}
+
+.project-content {
+  max-height: 10em;
+  line-height: 2em;
+  margin: 5px 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  cursor: default;
+}
+
+/*project-detail*/
+.project-detail-top,
+.project-detail-details {
+  padding: 10px;
+  border: 1px solid #cecece;
+  margin-bottom: 20px;
+}
+
+.project-detail-img {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  overflow: hidden;
+}
+
+.project-detail-img img {
+  width: 100%;
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+.project-detail-img {
+  margin-right: 80px;
+}
+
+.project-detail-line {
+  margin: 12px;
+  font-size: 18px;
+  cursor: default;
+}
+
+.project-detail-title {
+  color: #61a3e1;
+}
+
+.project-detail-info .project-detail-title {
+  font-weight: normal;
+  height: 65px;
+  line-height: 65px;
+}
+
+.project-detail-content {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}

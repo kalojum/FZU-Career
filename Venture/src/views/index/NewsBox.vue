@@ -4,22 +4,22 @@
     <li class="fl" :class="news ? '': 'hover'" @mouseover="switch"><a href="">最新政策</a></li>
   </ul>
   <div id="news-box">
-    <div class="news-box clearfix" v-show="news">
+    <div class="news-list-box clearfix" v-show="news">
       <div class="news-list news-left fl" >
         <ul>
-          <li v-for="news in newslist"><span class="time">{{news.time}}</span><a class="news-title" href="#">{{news.title}}</a></li>
+          <li v-for="news in newslist"><span class="time">{{news.time}}</span><a class="news-title" href="news.html">{{news.title}}</a></li>
         </ul>
       </div>
       <div class="news-list news-right fl">
         <ul>
-          <li v-for="news in newslist"><span class="time">{{news.time}}</span><a class="news-title" href="#">{{news.title}}</a></li>
+          <li v-for="news in newslist"><span class="time">{{news.time}}</span><a class="news-title" href="news.html#!/article">{{news.title}}</a></li>
         </ul>
       </div>
     </div>
-    <div class="policy-box clearfix" v-show="!news">
+    <div class="policy-list-box clearfix" v-show="!news">
       <div class="news-list news-left fl">
         <ul>
-          <li v-for="policy in policylist"><span class="time">{{policy.time}}</span><a class="news-title" href="#">{{policy.title}}</a></li>
+          <li v-for="policy in policylist"><span class="time">{{policy.time}}</span><a class="news-title" href="news.html#!/article">{{policy.title}}</a></li>
         </ul>
       </div>
       <div class="news-list news-right fl">
@@ -86,59 +86,3 @@
   }
 </script>
 
-
-<style scoped>
-  .news-nav {
-    margin-left: 15px;
-  }
-  .news-nav a {
-    display: inline-block;
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 16px;
-    color: #61A3E1;
-    border-bottom: 3px solid transparent;
-    cursor: pointer;
-  }
-  .news-nav li.hover {
-    border-bottom: 3px solid #61A3E1;
-  } 
-  .news-list {
-    box-sizing: border-box;
-    width: 50%;
-    margin: 15px 0;
-    padding: 0 20px;
-    height: 12em;
-    overflow: hidden;
-  }
-  .news-list .time {
-    vertical-align: middle;
-    color: #999;
-    padding-right: 5px;
-    font-size: .9em;
-    cursor: default;
-  }
-  .news-list .news-title {
-    display: inline-block;
-    height: 3em;
-    line-height: 3em;
-    width: 73%;
-    overflow: hidden;
-    vertical-align: middle;
-    color: #002443;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    transition: all .2s;
-  }
-  .news-list .news-title:hover {
-    color: #eb4f38;
-  }
-  @media (max-width: 1250px) {
-    .news-right {
-      display:none
-    }
-    .news-left {
-      width: 100%;
-    }
-  }
-</style>

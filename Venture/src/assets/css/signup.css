@@ -1,0 +1,142 @@
+.signup {
+  background: url('../../assets/images/signup.jpg');
+}
+
+.signup-top {
+  box-sizing: border-box;
+  width: 400px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.signup .container {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.signup-top img {
+  width: 100%;
+}
+
+.signup-content {
+  position: relative;
+  background-color: rgba(255, 255, 255, .8);
+}
+
+.signup-form {
+  box-sizing: border-box;
+  padding: 50px;
+  margin-top: 35px;
+}
+
+.signup-role .st,
+.signup-role .st + span{
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18%;
+  cursor: pointer;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+.signup-role {
+  position: relative;
+  width: 100%;
+  top: -50px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.signup-role .st {
+  opacity: 0;
+  z-index: 999;
+}
+
+
+#select0, #select0 + span {
+  left: 23%;
+}
+
+#select1, #select1 + span {
+  left: 41%;
+}
+
+#select2, #select2 + span {
+  left: 59%;
+}
+
+.signup-role span {
+  text-align: center;
+  cursor: pointer;
+  font-size: 17px;
+  color: #27294B;
+  transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out; /* Firefox 4 */
+  -webkit-transition: all .1s ease-in-out; /* Safari ºÍ Chrome */
+  -o-transition: all .1s ease-in-out; /* Opera */
+  cursor: pointer;
+}
+
+.signup-role .now:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -10px;
+  margin-bottom: -12px;
+  content: '';
+  display: block;
+  border-top: 12px solid #61A3E1;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.signup-box {
+  width: 490px;
+  margin: 0 auto;
+}
+
+.base-information {
+  padding: 10px;
+}
+
+.base-information label{
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  margin-right: 5px;
+  font-weight: normal;
+}
+
+.base-information input {
+  width: 290px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.base-information .v-code {
+  width: 25%;
+}
+
+.send-code {
+  margin-left: 25px;
+  padding: none;
+  width: 120px !important;
+  cursor: pointer;
+}
+
+.submit-signup {
+  display: block;
+  margin: 30px auto 0;
+  padding: 10px 30px;
+  background-color: #61A3E1;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: inherit;
+}
+

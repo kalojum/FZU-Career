@@ -1,8 +1,8 @@
 <template>
   <div id="main">
-    <mask></mask>
-    <nv-header></nv-header>
-    <banner :class="classBanner"></banner>
+    <mask v-show="showMask" @click="toggleMask"></mask>
+    <nv-header :pos="0" @login="toggleLoginBox"></nv-header>
+    <banner class="index-banner"></banner>
     <div class="news-panel">
       <div class="news-container container clearfix">
         <div class="col-lg-8 col-md-8 col-xs-12">
@@ -92,13 +92,11 @@ import NewsBox from './index/NewsBox'
 import NoticeBox from './index/NoticeBox'
 import BasesBox from './index/BasesBox'
 import ProjectsBox from './index/ProjectsBox'
+
 export default {
   data () {
     return {
-      classBanner: {
-        'index-banner': true,
-        'common-banner': false
-      }
+      showMask: false
     }
   },
   components: {
@@ -111,143 +109,19 @@ export default {
     BasesBox,
     ProjectsBox
   },
-  ready () {
-    let loginBtn = document.querySelector('.login')
-    let that = this
-    loginBtn.onclick = function () {
-      that.showLoginBox()
-    }
-  },
   methods: {
-    showLoginBox () { // 父子组件绑定方法？？？
-      let mask = document.querySelector('.mask')
-      mask.style.display = 'block'
-      mask.addEventListener('click', function (e) {
-        var dom = e.srcElement || e.target
-        if ((dom.className === 'mask') || (dom.className === 'close')) {
-          mask.style.display = 'none'
-        }
-      })
+    // 父组件header绑定login事件（Vue事件）显示loginBox
+    toggleLoginBox () {
+      this.showMask = true
+    },
+    // mask绑定click事件（Dom事件）隐藏loginBox
+    toggleMask (event) {
+      let target = event.target.className
+      let box = new RegExp('login-box')
+      if (!box.test(target)) {
+        this.showMask = false
+      }
     }
   }
 }
 </script>
-
-<style scoped>        
-  @font-face {
-    font-family: 'shufa';
-    src: url('../assets/SHUFA.ttf');
-    font-weight: normal;
-    font-style: normal;
-  }     
-  .news-panel {
-    box-sizing: border-box;
-    width: 100%;
-    padding-top: 50px;
-    background: url("../assets/news-bg.jpg");
-    background-size: cover;
-    overflow: hidden;
-  }
-  .news-container {
-    box-sizing: border-box;
-  }
-  .news-box {
-    background: #fff;
-    padding: 0 12px;
-    box-shadow: 0 0 25px 0 #cecece;
-    opacity: .9;
-    margin-bottom: 50px;
-  }
-  .hotnews-top {
-    padding: 20px 0 0 10px;
-    
-  }
-  .hotnews-top .icon-hot {
-    font-size: 1.1em;
-    margin-right: 5px;
-  }
-  .hotnews-top .hotnews-h1 {
-    font-size: 20px;
-    font-weight: normal;
-  }
-  .notice-box {
-    position: relative;
-    width: 100%;
-    height: 571px;
-    box-sizing: border-box;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 25px 0 #cecece;
-    opacity: .9;
-    margin-bottom: 50px;
-  }
-
-  .hotnews-h1 a,
-  .notice-h1 a {
-    color: #002443;
-  }
-  .notice-top {
-    position: absolute;
-  }
-  .notice-top .notice-h1{
-    font-size: 17px;
-    font-weight: normal;
-  }
-  .notice-top .icon-notice {
-    color: #eb4f38;
-    font-size: 1.1em;
-    margin-right: 5px;
-    margin-top: -2px;
-  }
-  .tutors-container,
-  .projects-container,
-  .bases-container {
-    box-sizing: border-box;
-    padding: 30px;
-  }
-  .tutors-top a,
-  .projects-top a {
-    display: inline-block;
-    width: 100px;
-    font-size: 22px;
-    font-weight: normal;
-    padding: 20px 0;
-    color: #4E4E5B;
-    border-top: 2px solid #61A3E1;
-  }
-  .tutors-box .icon-tutors{
-    color: #61a3e1;
-    font-size: 8em;
-  }
-  .tutors-title {
-    padding: 15px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #61A3E1;
-  }
-  .tutors-detail {
-    color: #666;
-  }
-  .bases-panel {
-    background-color: #33A7D6;
-  }
-  .bases-top {
-    color: #fff;
-  }
-  .bases-top p {
-    margin-bottom: 20px;
-  }
-  .bases-top a {
-    display: block;
-    color: #fff;
-    padding: 20px;
-    font-size: 42px;
-    font-family: 'shufa';
-    font-weight: normal;
-  }
-  @media (max-height: 768px) {
-    .notice-box {
-      height: 400px;
-    }
-  }
-</style>

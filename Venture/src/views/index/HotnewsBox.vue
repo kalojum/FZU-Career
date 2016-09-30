@@ -5,7 +5,7 @@
         <img :src="news.pic" alt="{{news.title}}">
       </div>
       <div class="hotnews-content fl">
-        <h3 class="hotnews-title"><a href='article.html?id='>{{news.title}}</a></h3>
+        <h3 class="hotnews-title"><a href='news.html#!/article'>{{news.title}}</a></h3>
         <p>{{news.content}}</p>
       </div>
     </div>
@@ -13,8 +13,8 @@
 </template>
 
 <script>
-  import pic1 from '../../assets/225046.jpg'
-  import pic2 from '../../assets/225241.jpg'
+  import pic1 from '../../assets/images/225046.jpg'
+  import pic2 from '../../assets/images/225241.jpg'
   export default {
     data () {
       return {
@@ -72,48 +72,3 @@
     }
   }
 </script>
-
-<style>
-  .hotnews-detail {
-    display: none;
-    margin-bottom: 8px;
-    height: 18em;
-    padding: 10px;
-    z-index: 1000;
-    overflow: hidden;
-  }
-  .hotnews-img {
-    width: 50%;
-    height: 100%;
-    overflow: hidden;
-  }
-  .hotnews-img img {
-    width: 100%;
-    height: 100%;
-  }
-  .hotnews-title {
-    line-height: 1.5em;
-    max-height: 3em;
-    margin-bottom: .5em;
-    overflow: hidden;
-  }
-  .hotnews-title a {
-    color: #002443;
-  }
-  .hotnews-title a:hover {
-    color: #eb4f38;
-  }
-  .hotnews-content {
-    width: 48%;
-    line-height: 1.5em;
-    height: 16em;
-    overflow: hidden;
-    margin-left: 2%;
-    cursor: default;
-  }
-  @media (max-width: 768px) {
-    .hotnews-detail {
-      height: 11em;
-    }
-  }
-</style>

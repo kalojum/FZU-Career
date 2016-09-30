@@ -1,0 +1,148 @@
+/*news*/
+.news {
+  box-sizing: border-box;
+  padding: 30px;
+}
+.news-nav {
+  line-height: 30px;
+  background-color: #fff;
+  margin-right: -1px;
+}
+.news-nav li {
+  width: 32%;
+  border: 1px solid #fff;
+  transition: all .2s linear;
+  display: inline-block;
+  text-align: center;
+}
+
+.news-nav .iconfont {
+  position: relative;
+  top: 3px;
+  margin-right: 10px;
+  font-size: 31px;
+  line-height: inherit;
+}
+
+.news-nav a {
+  box-sizing: border-box;
+  display: inline-block;
+  padding-bottom: 20px;
+  line-height: inherit;
+  color:inherit;
+}
+
+.news-nav .active {
+  color: #eb4f38;
+}
+.news-wrapper {
+  height: 676px;
+  padding: 15px;
+  border: 1px solid #999;
+  box-shadow: 3px 0 5px 0 #cecece;
+}
+
+.news-detail li{
+  vertical-align: middle;
+}
+
+.news-detail a {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 75%;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  overflow: hidden;
+  color: #666;
+  text-overflow:ellipsis;
+  -o-text-overflow: ellipsis;   
+  white-space:nowrap;
+}
+.news-detail a:hover {
+  color: #000;
+}
+
+.news-detail .time {
+  color: #999;
+  font-size: .8em;
+  line-height: 40px;
+  vertical-align: middle;
+}
+.icon-circle {
+  color: #eb4f38;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+@media (min-width: 992px) {
+  .news-wrapper {
+    float: left;
+    position: relative;
+    width: 678px;
+    padding: 15px;
+    z-index: 1;
+  }
+  .news-nav {
+    display: inline-block;
+    float: left;
+    position: relative;
+    z-index: 2;
+  }
+  .news-nav .active {
+    color: #eb4f38;
+    border: 1px solid #999;
+    border-right: 1px solid #fff;
+  }
+  .news-nav li {
+    width: auto;
+    display: block;
+    border-right: 1px solid #999;
+  }
+  .news-nav a {
+     width: 198px;
+     padding: 20px;
+  }
+  .news-nav .iconfont {
+    margin-left: -15px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .news-wrapper {
+    float: left;
+    width: 888px;
+    padding: 25px;
+  }
+}
+
+/*article*/
+.article-wrapper {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.article-wrapper img {
+  display: block;
+  margin: 0 auto;
+  width: 70% !important;
+  height: auto !important;
+}
+
+.article-wrapper .article-title{
+  font-weight: normal;
+  padding: 23px;
+  margin-bottom: 15px;
+  border-bottom: 1px dotted #999;
+}
+
+.article-wrapper .article-info {
+  font-size: 13px;
+  padding: 20px;
+  color: #C68D59;
+}
+
+.article-wrapper .article-content{
+  text-indent: 2em;
+  line-height: 30px;
+}

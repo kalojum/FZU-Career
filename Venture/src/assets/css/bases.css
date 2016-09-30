@@ -1,0 +1,151 @@
+/*sidebar*/
+.bases-sidebar,
+.games-sidebar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  opacity: 1;
+  width: 45%;
+  height: 100%;
+  border: 1px solid #cecece;
+  background-color: #fff;
+}
+
+.bases-sidebar ul li,
+.games-sidebar ul li {
+  height: 4em;
+  line-height: 4em;
+  padding: 0 20px;
+  vertical-align: text-top;
+  text-overflow:ellipsis;
+  -o-text-overflow: ellipsis;   
+  white-space:nowrap;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.sidebar-btn {
+  display: block;
+  position: fixed;
+  left: 15px;
+  bottom: 15px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #61a3e1;
+  opacity: .7;
+}
+
+.icon-sidebar {
+  display: inline-block;
+  margin-left: 6px;
+  color: #fff;
+  line-height: 38px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.appear-transition {
+  transition: opacity .1s .1s, transform .1s;
+  background-color: rgba(255, 255, 255, .9);
+}
+
+.appear-enter, 
+.appear-leave {
+  opacity: 0;
+  transform: translate(-100%, 0);
+}
+
+@media (min-width: 992px) {
+  .bases-sidebar,
+  .games-sidebar {
+    position: static;
+    display: block;
+    width: 30%;
+  }
+  .sidebar-btn {
+    display: none;
+  }
+}
+
+/*base & game*/
+.bases-wrapper,
+.games-wrapper {
+  padding: 30px;
+  position: relative;
+}
+
+.base-content,
+.game-content {
+  box-sizing: border-box;
+}
+
+
+.base-title,
+.game-title {
+  font-size: 28px;
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+.base-introduction-top,
+.base-show-top,
+.game-introduction-top,
+.game-show-top {
+  width: auto;
+  height: 50px;
+  line-height: 50px;
+  margin: 1em 0;
+}
+
+.base-introduction-top h2,
+.game-introduction-top h2,
+.base-show-top h2,
+.game-show-top h2{
+  margin-right: 20px;
+  color: #61A3E1;
+  vertical-align: middle;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.base-introduction-detail p {
+  padding: 0 1em;
+  text-indent: 2em;
+  line-height: 2em;
+}
+
+.base-show-pic img{
+  width: 80%;
+  margin: 10px;
+  height: auto;
+}
+
+/*game*/
+.pastgame {
+  color: #888;
+  margin-left: 2em;
+  cursor: pointer;
+}
+
+.game-time {
+  margin: 0 auto;
+  height: 50px;
+  width: 70%;
+  line-height: 50px;
+  padding: 0 25px;
+}
+
+.icon-endtime {
+  color: #eb4f38;
+}
+
+@media (min-width: 992px) {
+  .base-content,
+  .game-content {
+    width: 70%;
+    float: left;
+    padding: 15px 25px;
+  }
+}

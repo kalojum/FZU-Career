@@ -28,10 +28,10 @@
 </template>
 
 <script>
-  import pic1 from '../../assets/baseoic.jpg'
-  import pic2 from '../../assets/66ed930fgw1f4kuznrz1aj223q1i6npd.jpg'
-  import pic3 from '../../assets/225046.jpg'
-  import pic4 from '../../assets/225241.jpg'
+  import pic1 from '../../assets/images/baseoic.jpg'
+  import pic2 from '../../assets/images/66ed930fgw1f4kuznrz1aj223q1i6npd.jpg'
+  import pic3 from '../../assets/images/225046.jpg'
+  import pic4 from '../../assets/images/225241.jpg'
   export default {
     data () {
       return {
@@ -80,33 +80,3 @@
     }
   }
 </script>
-
-<style>
-  .project-detail {
-    box-shadow: 0 0 10px #cecece;
-    margin-bottom: 15px;
-    background-color: #fff;
-  }
-  .project-detail .project-pic {
-    display: block;
-    overflow: hidden;
-  }
-  .project-pic img {
-    width: 100%;
-  }
-  .project-name {
-    font-weight: normal;
-    text-align: center;
-    margin: 20px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #cecece;
-    color: #4E4E5B;
-  }
-  .project-content {
-    text-indent: 2em;
-    padding: 0 20px 20px 20px;
-    line-height: 24px;
-    color: #4E4E5B;
-    cursor: default;
-  }
-</style>
